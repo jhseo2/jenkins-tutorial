@@ -7,6 +7,7 @@ ECR_PATH = '159611220708.dkr.ecr.ap-northeast-2.amazonaws.com'
 ECR_IMAGE = 'jenkins-test'
 AWS_CREDENTIAL_ID = 'jenkins-aws-credentials'
 
+
 node {
     stage('Clone Repository'){
         checkout scm
